@@ -7,7 +7,7 @@
 - **Статус:** ✅ Загружен успешно
 
 ### 2. Проект развернут на Vercel
-- **URL:** https://ipa-2cacui748-xopipops-projects.vercel.app
+- **URL:** https://ipa-dtgp9a3fi-xopipops-projects.vercel.app
 - **Статус:** ✅ Развернут с HTTPS
 
 ### 3. Настроены файлы с реальными данными приложения
@@ -27,14 +27,14 @@ vercel --prod
 
 ### 2. Установка на iPhone:
 1. Откройте Safari на iPhone
-2. Перейдите по адресу: `https://ipa-2cacui748-xopipops-projects.vercel.app/install.html`
+2. Перейдите по адресу: `https://ipa-dtgp9a3fi-xopipops-projects.vercel.app/install.html`
 3. Нажмите "Установить приложение"
 
 ## 🎯 Важные URL:
 
-- **Установка:** https://ipa-2cacui748-xopipops-projects.vercel.app/install.html
-- **Манифест:** https://ipa-2cacui748-xopipops-projects.vercel.app/manifest.plist
-- **IPA:** https://ipa-2cacui748-xopipops-projects.vercel.app/app.ipa
+- **Установка:** https://ipa-dtgp9a3fi-xopipops-projects.vercel.app/install.html
+- **Манифест:** https://ipa-dtgp9a3fi-xopipops-projects.vercel.app/manifest.plist
+- **IPA:** https://ipa-dtgp9a3fi-xopipops-projects.vercel.app/app.ipa
 
 ## ✨ Преимущества развернутого решения:
 
@@ -79,4 +79,4 @@ vercel dev
 **🎉 Поздравляем! Ваш OTA-сервер полностью готов к работе!**
 
 **Для установки на iPhone откройте:**
-**https://ipa-2cacui748-xopipops-projects.vercel.app/install.html**
+**https://ipa-dtgp9a3fi-xopipops-projects.vercel.app/install.html**
