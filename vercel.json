@@ -1,36 +1,37 @@
 {
   "version": 2,
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "routes": [
-    {
-      "src": "/app.ipa",
-      "headers": {
-        "Content-Type": "application/octet-stream",
-        "Content-Disposition": "attachment; filename=\"app.ipa\""
-      }
-    },
-    {
-      "src": "/manifest.plist",
-      "headers": {
-        "Content-Type": "text/xml"
-      }
-    },
-    {
-      "src": "/icon.svg",
-      "headers": {
-        "Content-Type": "image/svg+xml"
-      }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
   "headers": [
+    {
+      "source": "/app.ipa",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"app.ipa\""
+        }
+      ]
+    },
+    {
+      "source": "/manifest.plist",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/xml"
+        }
+      ]
+    },
+    {
+      "source": "/icon.svg",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/svg+xml"
+        }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [
