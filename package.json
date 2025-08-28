@@ -1,0 +1,22 @@
+{
+  "name": "ota-ios-distribution",
+  "version": "1.0.0",
+  "description": "OTA iOS App Distribution Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "ios",
+    "ota",
+    "distribution",
+    "ipa"
+  ],
+  "author": "OTA Server",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
